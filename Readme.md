@@ -30,13 +30,13 @@ To run this project locally, ensure the following are installed:
 Node.js: Version 14.x or newer
 npm: Version 6.x or newer
 🔧 Installation
-Clone the repository:
+Clone the repository:git@github.com:iamfarhatsharefi/my-node-server.git
 
 
 
 bash
 Copy code
-git clone https://github.com/your-username/your-repo-name.git
+git clone git@github.com:iamfarhatsharefi/my-node-server.git
 Navigate to the project directory:
 
 bash
