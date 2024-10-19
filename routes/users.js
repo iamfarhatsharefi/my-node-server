@@ -4,6 +4,9 @@ const router = express.Router();
 let users = [
   { id: 1, name: "Alice" },
   { id: 2, name: "Bob" },
+  { id: 3, name: "john" },
+  { id: 4, name: "shakex" },
+  { id: 5, name: "chris" },
 ];
 
 // GET all users
@@ -43,3 +46,11 @@ router.put("/:id", (req, res) => {
   res.json(updatedUser);
 });
 
+// DELETE user
+router.delete("/:id", (req, res) => {
+  const userId = parseInt(req.params.id);
+  users = users.filter((user) => user.id !== userId);
+  res.json({ message: "User deleted" });
+});
+
+module.exports = router;
