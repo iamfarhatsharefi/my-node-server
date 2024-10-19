@@ -20,8 +20,7 @@ DELETE /users/:id: Deletes a user.
 Check out the live demo of this project:
 
 
-
-GitHub Pages / Deployment Link: Live Demo
+GitHub Pages / Deployment Link: https://my-node-server-rho.vercel.app/
 📦 Requirements
 To run this project locally, ensure the following are installed:
 
